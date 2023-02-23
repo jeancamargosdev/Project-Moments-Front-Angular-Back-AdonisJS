@@ -15,9 +15,9 @@ import { faSearchengin } from '@fortawesome/free-brands-svg-icons';
 })
 export class HomeComponent {
 
-  allMoments: Moment[] = []
-  moments: Moment [] = []
-  baseApiUrl = environment.baseApiUrl
+  allMoments: Moment[] = [];
+  moments: Moment [] = [];
+  baseApiUrl = environment.baseApiUrl;
 
   constructor(private momentService: MomentService){
 
